@@ -1,0 +1,158 @@
+@CHARSET "UTF-8";
+
+@font-face{
+    font-family: 'hannari';
+    src: url("./hannari/hannari.otf") format('opentype');
+}/*プラグインした、はんなり明朝というwebフォントです。*/
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+html{
+    height:100%;
+}
+
+body{
+	position:absolute;
+	width:100%;
+	height:100%;
+	margin:0 auto;
+	background-image:url("../images/backhome.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+}
+/*--背景画像--*/
+#image-wrap{
+	position:relative;
+	background-image:url("zen.png");
+	background-size:cover;
+	width:1800px;
+	height:1300px;
+    z-index:-5;/*--背景画像の上に要素を置けるようにする処理--*/
+}
+
+#icon{
+    position:absolute;
+    top:15px;
+    left:45px;
+}
+
+
+#header-wrapper{
+	position:absolute;
+	left:200px;
+    top:30px;
+    width:1300px;
+	border-bottom:1px solid black;
+}
+
+
+header ul{
+	clear:both;
+    float:left;
+}
+
+header li{
+	float:left;
+	line-height:50px;
+	list-style:none;
+	padding-left:180px;
+    font-family:'hannari';
+	font-size:25px;
+
+}
+
+header a{
+    color:black;
+    text-decoration:none;
+}
+
+
+
+#main{
+width:80%;
+margin-top:10%;
+margin-left:15%;
+}
+
+h3{
+	margin-left:400px;
+}
+
+
+.image{
+
+	float:left;
+	margin-top:60px;
+	margin-left:90px;
+	margin-bottom:10px;
+	width:220px;
+}
+
+.moji{
+	float:left;
+
+	font-family:'hannari';
+	font-size:30px;
+}
+
+.box{
+	width: 70%;
+	height: 300px;
+ 	margin-top:10px;
+	margin-left:150px;
+	background-color:rgba(255,255,255,0.6);
+	clear: both;
+
+
+}
+
+
+
+.message{
+	clear:both;
+	float:left;
+	text-align:center;
+	position:absolute;
+	top:200px;
+	font-size:30px;
+
+}
+
+.botton{
+	text-align:center;
+	margin-top:20px;
+	margin-right:100px;
+	margin-bottom:50px;
+
+}
+
+
+
+footer a{
+    color:black;
+    text-decoration:none;
+}
+
+.inquiry{
+    position:absolute;
+	left:90px;
+	line-height:40px;
+	font-family:'hannari';
+    font-size:150%;
+}
+
+
+.company{
+    position:absolute;
+    right:15%;
+    line-height:40px;
+    font-family:'hannari';
+    font-size:150%;
+    color:black;
+}
+
+
+

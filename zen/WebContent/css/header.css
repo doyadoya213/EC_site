@@ -1,0 +1,91 @@
+/*--全ページ共通--*/
+@font-face{
+    font-family: 'hannari';
+    src: url("../webfont/hannari.otf") format('opentype');
+}/*プラグインした、はんなり明朝というwebフォントです。これはプラグインしただけなので
+使うところにfont-familyで指定して下さい。*/
+
+header{
+	height:10%;
+	width:100%;
+}
+
+.icon{
+    float:left;
+    margin:-40px 0 0 4%;
+}
+
+.search{
+	margin-top:55px;
+}
+
+.search1{
+	clear:both;
+	float:left;
+	margin-top:6px;
+	margin-left:15%;
+}
+
+
+
+
+.select1{
+	padding:5px;
+	border-redius:50px;
+}
+
+
+
+.search2{
+	float:left;
+	margin-top: 5px;
+	margin-left:1%;
+}
+
+.box1{
+	height:30px;
+	padding:0 10px;
+	width:200px!important;
+	border-radius:25px;
+	border:2px solid white;
+	outline:0;
+}
+
+.search3{
+	margin:4px 0 0 0;
+	padding: 0;
+	clear:both;
+	display:inline-block;
+}
+
+
+
+header ul{
+	clear:both;
+    float:left;
+    margin-left:45%;
+    margin-top:-40px;
+}
+
+header li{
+	float:left;
+	list-style:none;
+	padding-left:35px;
+	line-height:50px;
+    font-family:'hannari';
+	font-size:25px;
+
+}
+
+header a{
+    color:black;
+    text-decoration:none;
+}
+
+
+.border{
+	float:left;
+	width:80%;
+	border-bottom:1px solid black;
+	margin:0 13%;
+}
